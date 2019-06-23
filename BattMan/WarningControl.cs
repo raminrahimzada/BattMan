@@ -27,7 +27,7 @@ namespace BattMan
                 }
                 else
                 {
-                    labelDescription.BackgroundImage = Resources.battery_empty;
+                    labelDescription.Image = Resources.battery_empty;
                 }
             }
         }

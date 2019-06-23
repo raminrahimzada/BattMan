@@ -51,7 +51,7 @@ namespace BattMan
             notifyIconMain.BalloonTipIcon = ToolTipIcon.Warning;
             notifyIconMain.BalloonTipTitle = description;
             notifyIconMain.BalloonTipText = description;
-            notifyIconMain.ShowBalloonTip(1000);
+            notifyIconMain.ShowBalloonTip(3000);
             WindowState = FormWindowState.Maximized;
             Size = new Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
             warningControlMain.Title = description;
